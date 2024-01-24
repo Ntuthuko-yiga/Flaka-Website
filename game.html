@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sliding Puzzle Game</title>
+    <!-- Google Fonts -->
+    <link rel="Icon" href="img/fork-and-knife.png">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"/>
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+  </head>
+  <body>
+
+    <!-- <div class="logo">
+        <a href="menu.html"> <img src="img/flaka_logo-removebg-preview.png" alt=""></a>
+    </div> -->
+
+    <a href="menu.html"><i class="bi bi-arrow-left-circle"></i></a>
+
+    <div class="head">
+      <h2>Instructions</h2>
+      <div class="score"><span>Rearrange the puzzle to match the image on the right</span></div>
+  </div>
+
+    <div class="cover-screen">
+      <p id="result"></p>
+      <button id="start-button">Start Game</button>
+    </div>
+    <div id="moves"></div>
+    <div class="slider-game">
+      <div class="container1"></div>
+      <div class="original-image">
+        <img src="original_image.png" alt="" />
+      </div>
+    </div>
+    <!-- Script -->
+    <script src="game.js"></script>
+  </body>
+</html>

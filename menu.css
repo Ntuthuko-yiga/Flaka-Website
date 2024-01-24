@@ -1,0 +1,193 @@
+.navbar-brand img{
+    height: 70px;
+    width: 75px;
+  }
+  /* Adjust the positioning of the navbar-toggler button */
+  .navbar-toggler {
+    margin-top: -70px; /* Adjust the value as needed to move the button up */
+  }
+  
+  .navbar.bg-dark {
+    background-color: #000 !important; /* Set a custom color for dark black */
+  }
+
+  .navbar {
+    padding: 7px 0; 
+  }
+  
+  ul.navbar-nav{
+    font-size: large;
+  }
+  
+  @media (min-width: 992px) {
+    ul.navbar-nav {
+      padding-left: 62%;
+    }
+   
+  }
+  .navbar .nav-item .active {
+    background-color: darkgray; /* Change background color */
+    color: #fff; /* Change text color */
+    border-radius: 10px;
+    border-bottom: #fff solid
+  }
+
+  nav .nav-item a:hover{
+    background-color: darkgray !important;
+    border-radius: 10px;
+    border-bottom: #fff solid;
+    }
+
+   .active-link {
+    color: #ff0000; /* Set the desired color for the active link */
+  }
+
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    transition:all .2s cubic-bezier(.34,1.12,.68,1.31);
+    font-family: 'Raleway', sans-serif;
+}
+
+.gallery{
+    min-height: 100vh;
+    background:#eee;
+    padding-bottom: 100px;
+}
+
+.gallery .controls{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding:20px 0;
+    list-style: none;
+}
+
+.gallery .controls .buttons{
+    height:40px;
+    width: 140px;
+    background:#fff;
+    color:#666;
+    font-size: 20px;
+    line-height: 40px;
+    cursor: pointer;
+    margin:20px;
+    box-shadow: 0 3px 5px rgba(0,0,0,.3);
+    text-align: center;
+}
+
+.gallery .controls .buttons.active{
+    background:coral;
+    color:#fff;
+}
+
+.gallery .image-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.gallery .image-container .image{
+    height:250px;
+    width: 350px;
+    overflow: hidden;
+    border:15px solid #fff;
+    box-shadow: 0 3px 5px rgba(0,0,0,.3);
+    margin: 20px;
+}
+
+.gallery .image-container .image img{
+    height: 100%;
+    width:100%;
+    object-fit: cover;
+}
+
+.gallery .image-container .image:hover img{
+    transform: scale(1.4);
+}
+
+ img {
+    width: 120px;
+}
+
+#social {
+  font-size: 2rem;
+  margin: 15px;
+  color: #fff;
+}
+
+#social:hover{
+  color: #0077b6;
+}
+
+.sub{
+  margin-bottom: 15px;
+}
+
+.footer {
+    margin-top: 10px;
+    color: white;
+    text-decoration: none;
+  }
+
+  #address {
+    text-decoration: none;
+  }
+
+#footer {
+  margin-top: 10px;
+}
+
+#backToTopBtn {
+  background-color: coral;
+  width: 100px;
+  position: relative;
+  right: -43%;
+}
+
+#play{
+  position: relative;
+  right: -44%;
+  padding: 5px;
+  margin: 10px;
+}
+
+#rocket {
+  position: fixed;
+  bottom: 15px;
+  right: 20px;
+  height: 70px;
+  width: 70px;
+  display: none;
+  place-items: center;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+#rocket-value {
+  display: block;
+  height: calc(100% - 15px);
+  width: calc(100% - 15px);
+  background-color: #ffffff;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  font-size: 35px;
+  color: #001a2e;
+}
+
+#rocket-value.filled {
+  background: conic-gradient(#03cc65 100%, #d7d7d7 0%);
+  animation: fillRocket 0.5s forwards;
+}
+
+@keyframes fillRocket {
+  to {
+    background: conic-gradient(#03cc65 0%, #d7d7d7 0%);
+  }
+}

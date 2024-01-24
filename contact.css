@@ -1,0 +1,152 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+.cont {
+    background-color: #fafafa;
+    margin: 10px; /* Adjust margin for spacing */
+    box-shadow: 10px 15px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+#head {
+    color: #fff;
+}
+
+.cont-time {
+    background-color: rgba(0, 0, 0, 0.95);
+    padding: 20px; /* Adjust padding for spacing */
+    text-align: center;
+}
+
+.heading {
+    font-size: 35px;
+    text-transform: uppercase;
+}
+
+.heading-days {
+    color: #998100;
+    font-size: 30px;
+}
+
+.heading-phone {
+    font-size: 20px;
+}
+
+.cont-form {
+    padding: 20px;
+    color: black;
+}
+
+form p {
+    font-weight: 600;
+}
+
+.form-field {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Allow elements to wrap on small screens */
+}
+
+input {
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: 1px solid;
+    width: 100%; /* Make inputs fill the available width */
+    margin-bottom: 10px; /* Add margin between form fields */
+}
+
+select {
+    padding: 10px 15px;
+    width: 100%; /* Make selects fill the available width */
+    margin-bottom: 10px; /* Add margin between form fields */
+}
+
+#social {
+    font-size: 2rem;
+    margin: 15px;
+    color: #fff;
+  }
+  
+  #social:hover{
+    color: #0077b6;
+  }
+
+.sub{
+    margin-bottom: 15px;
+}
+
+.btn1 {
+    background-color: black;
+    padding: 10px 20px;
+    border: none;
+    font-size: 18px;
+    color: white;
+    box-shadow: 7px 10px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 100px;
+    cursor: pointer;
+    margin-top: 8px;
+    width: 100%;
+}
+
+.btn1:hover {
+    transform: scale(1.03);
+    box-shadow: 10px 12 15px rgba(0, 0, 0, 0.3);
+}
+
+.navbar-brand img{
+height: 70px;
+width: 90px;
+}
+/* Adjust the positioning of the navbar-toggler button */
+.navbar-toggler {
+margin-top: -70px; /* Adjust the value as needed to move the button up */
+}
+
+.navbar.bg-dark {
+background-color: #000 !important; /* Set a custom color for dark black */
+}
+
+.navbar {
+padding: 7px 0; 
+}
+
+ul.navbar-nav{
+font-size: large;
+}
+
+@media (min-width: 992px) {
+ul.navbar-nav {
+padding-left: 62%;
+}
+}
+
+.navbar .nav-item .active {
+    background-color: darkgray; /* Change background color */
+    color: #fff; /* Change text color */
+    border-radius: 10px;
+    border-bottom: #fff solid
+  }
+  
+nav .nav-item a:hover{
+background-color: darkgray !important;
+border-radius: 10px;
+border-bottom: #fff solid;
+
+}
+
+.footer {
+    margin-top: 10px;
+    color: white;
+    text-decoration: none;
+  }
+
+#footer {
+    margin-top: 10px;
+}
+#address {
+    text-decoration: none;
+  }

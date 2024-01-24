@@ -1,0 +1,80 @@
+.navbar-brand img {
+  height: 70px;
+  width: 75px;
+}
+/* Adjust the positioning of the navbar-toggler button */
+.navbar-toggler {
+  margin-top: -70px; /* Adjust the value as needed to move the button up */
+}
+
+.navbar.bg-dark {
+  background-color: #000 !important; /* Set a custom color for dark black */
+}
+
+.navbar {
+  padding: 7px 0;
+}
+
+ul.navbar-nav {
+  font-size: large;
+}
+
+@media (min-width: 992px) {
+  ul.navbar-nav {
+    padding-left: 62%;
+  }
+}
+
+.navbar .nav-item .active {
+  background-color: darkgray; /* Change background color */
+  color: #fff; /* Change text color */
+  border-radius: 10px;
+  border-bottom: #fff solid;
+}
+
+img {
+  width: 120px;
+}
+
+.col-md-8 {
+  max-width: 100%; /* Adjust this value as needed */
+  margin: 0 auto;  /* Center the content */
+}
+
+.col-md-8 p {
+  font-size: 20px;
+}
+
+#social {
+  font-size: 2rem;
+  margin: 15px;
+  color: #fff;
+}
+
+#social:hover{
+  color: #0077b6;
+}
+
+#address {
+  text-decoration: none;
+}
+
+.footer {
+  margin-top: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+.sub {
+  margin-bottom: 15px;
+}
+
+#footer {
+  margin-top: 10px;
+}
+
+nav .nav-item a:hover {
+  background-color: darkgray !important;
+  border-radius: 10px;
+  border-bottom: #fff solid;
+}

@@ -1,0 +1,173 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+.navbar-brand img{
+  height: 70px;
+  width: 90px;
+  }
+  /* Adjust the positioning of the navbar-toggler button */
+  .navbar-toggler {
+  margin-top: -70px; /* Adjust the value as needed to move the button up */
+  }
+  
+  .navbar.bg-dark {
+  background-color: #000 !important; /* Set a custom color for dark black */
+  }
+  
+  .navbar {
+  padding: 7px 0; 
+  }
+  
+  ul.navbar-nav{
+  font-size: large;
+  }
+
+  nav .nav-item a:hover{
+    background-color: darkgray !important;
+    border-radius: 10px;
+    border-bottom: #fff solid;
+    }
+    
+  .navbar .nav-item .active {
+    background-color: darkgray; /* Change background color */
+    color: #fff; /* Change text color */
+    border-radius: 10px;
+    border-bottom: #fff solid;
+  }
+  
+  @media (min-width: 992px) {
+  ul.navbar-nav {
+  padding-left: 62%;
+  }
+  }
+
+.container1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin: 40px 20px 0 20px;
+}
+
+.container1 .heading{
+  width: 50%;
+  padding-bottom: 50px;
+}
+
+.container1 .heading h2 {
+  font-size: 3em;
+  font-weight: bolder;
+  padding-bottom: 10px;
+  border-bottom: 3px solid #222;  
+}
+
+.container1 .heading h2 span {
+  font-weight: 100;
+}
+
+.container1 .box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.container1 .box .dream {
+  display: flex;
+  flex-direction: column;
+  width: 32.5%;
+}
+
+.container1 .box .dream img {
+  width: 100%;
+  padding-bottom: 16px;
+  border-radius: 5px;
+}
+
+#social {
+  font-size: 2rem;
+  margin: 15px;
+  color: #fff;
+}
+
+#social:hover{
+  color: #0077b6;
+}
+
+.sub{
+  margin-bottom: 15px;
+}
+
+.footer {
+  margin-top: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+
+#footer {
+  margin-top: 10px;
+}
+
+#address {
+  text-decoration: none;
+}
+
+#rocket {
+  position: fixed;
+  bottom: 15px;
+  right: 20px;
+  height: 70px;
+  width: 70px;
+  display: none;
+  place-items: center;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+#rocket-value {
+  display: block;
+  height: calc(100% - 15px);
+  width: calc(100% - 15px);
+  background-color: #ffffff;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  font-size: 35px;
+  color: #001a2e;
+}
+
+#rocket-value.filled {
+  background: conic-gradient(#03cc65 100%, #d7d7d7 0%);
+  animation: fillRocket 0.9s forwards;
+}
+
+@keyframes fillRocket {
+  to {
+    background: conic-gradient(#03cc65 0%, #d7d7d7 0%);
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .container1 .box {
+      flex-direction: column;
+  }
+  .container1 .box .dream {
+      width: 100%;
+  }
+} 
+
+@media only screen and (max-width: 640px) {
+  .container1 .heading{
+      width: 100%;
+  }
+  
+  .container1 .heading h2 {
+      font-size: 1.5em; 
+  }
+}

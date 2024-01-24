@@ -1,0 +1,144 @@
+/* body {
+    background-size: cover;
+    align-items: center; 
+    margin: 0;
+  } */
+
+  *{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    transition:all .2s cubic-bezier(.34,1.12,.68,1.31);
+    font-family: 'Raleway', sans-serif;
+}
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .navbar-brand img{
+    height: 70px;
+    width: 75px;
+  }
+  /* Adjust the positioning of the navbar-toggler button */
+  .navbar-toggler {
+    margin-top: -70px; /* Adjust the value as needed to move the button up */
+  }
+  
+  .navbar.bg-dark {
+    background-color: #000 !important; /* Set a custom color for dark black */
+  }
+
+  nav .nav-item a:hover{
+    background-color: darkgray !important;
+    border-radius: 10px;
+    border-bottom: #fff solid;
+    }
+  
+  /* Custom CSS for active link */ 
+.navbar .nav-item .active {
+  background-color: darkgray; /* Change background color */
+  color: #fff; /* Change text color */
+  border-radius: 10px;
+  border-bottom: #fff solid
+}
+
+  /* Increase the height of the navbar */
+  .navbar {
+    padding: 7px 0; 
+  }
+  
+  ul.navbar-nav{
+    font-size: large;
+  }
+  
+  @media (min-width: 992px) {
+    ul.navbar-nav {
+      padding-left: 62%;
+    }
+    
+  }
+
+  #social {
+    font-size: 2rem;
+    margin: 15px;
+    color: #fff;
+  }
+  
+  #social:hover{
+    color: #0077b6;
+  }
+  
+  h1{
+    color:aliceblue;
+    text-align: center;
+    font-size: 60px;
+    animation: slideUp 3s ease forwards;
+  }
+  .carousel-caption p{
+    text-align: center;
+    color: aliceblue;
+    font-size: 25px;
+    animation: slideRight 5s ease forwards;
+  }
+  
+  /* nav .nav-item a:hover{
+    background-color: darkgray !important;
+    border-radius: 10px;
+    border-bottom: #fff solid;
+    
+    }
+   */
+ 
+   #address {
+    text-decoration: none;
+  }
+
+   #social{
+    font-size: 2rem;
+    margin: 15px;
+  }
+  
+  .sub{
+    margin-bottom: 15px;
+  }
+  
+  .footer {
+    margin-top: 10px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  
+  #footer {
+    margin-top: 10px;
+  }
+
+iframe {
+  position: fixed;
+  top: 15%;
+  right: 3%;
+  z-index: 12;
+}
+
+
+.fa-regular {
+  border-radius: 15px;
+  padding: 9px;
+  background-color: white;
+  cursor: pointer;
+  font-size: 30px;
+  color: black;
+  position: fixed;
+  bottom: 5%;
+  right: 5%;
+  animation: wiggle 0.4s ease infinite;
+  z-index: 5;
+}
+

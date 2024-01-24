@@ -1,0 +1,159 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Raleway" sans-serif;
+}
+
+body {
+  background-image: linear-gradient(rgba(4, 9, 30, 0.6), rgba(4, 9, 30, 0.6)),
+    url(img/cloud.jpeg);
+  background-size: cover;
+  margin: 0;
+}
+
+.navbar-brand img {
+  height: 70px;
+  width: 75px;
+}
+/* Adjust the positioning of the navbar-toggler button */
+.navbar-toggler {
+  margin-top: -70px; /* Adjust the value as needed to move the button up */
+}
+
+.navbar.bg-dark {
+  background-color: #000 !important; /* Set a custom color for dark black */
+}
+
+.navbar {
+  padding: 7px 0;
+}
+
+ul.navbar-nav {
+  font-size: large;
+}
+
+@media (min-width: 992px) {
+  ul.navbar-nav {
+    padding-left: 62%;
+  }
+  .wrapper{
+    width: 100%;
+  }
+}
+
+nav .nav-item a:hover {
+  background-color: darkgray !important;
+  border-radius: 10px;
+  border-bottom: #fff solid;
+}
+
+.navbar .nav-item .active {
+  background-color: darkgray; /* Change background color */
+  color: #fff; /* Change text color */
+  border-radius: 10px;
+  border-bottom: #fff solid;
+}
+
+.wrapper {
+  max-width: 60%;
+  margin: auto;
+}
+
+.wrapper > p,
+.wrapper > h1 {
+  margin: 1.5rem 0;
+  text-align: center;
+}
+.wrapper > h1 {
+  letter-spacing: 3px;
+}
+
+.accordion {
+  background-color: white;
+  color: rgba(0, 0, 0, 0.8);
+  cursor: pointer;
+  font-size: 1.2rem;
+  width: 100%;
+  padding: 2rem 2.5rem;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+}
+
+.accordion i {
+  font-size: 1.6rem;
+}
+
+.accordion:hover {
+  background-color: #ccc;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+.fa-chevron-down {
+  float: right;
+}
+
+.fa-chevron-up {
+  float: right;
+}
+
+
+
+.panel {
+  padding: 0 2rem 2.5rem 2rem;
+  background-color: white;
+  overflow: hidden;
+  background-color: #d8e0dd;
+  display: none;
+}
+
+.panel p {
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 1.2rem;
+  line-height: 1.4;
+}
+
+.faq {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  margin: 10px 0;
+  border-radius: 5px;
+}
+.faq.active {
+  border: none;
+}
+
+#social {
+  font-size: 2rem;
+  margin: 15px;
+  color: #fff;
+}
+
+#social:hover{
+  color: #0077b6;
+}
+
+.footer {
+  margin-top: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+.sub {
+  margin-bottom: 15px;
+}
+
+#footer {
+  margin-top: 10px;
+}
+
+#address {
+  text-decoration: none;
+}
+
